@@ -188,3 +188,7 @@ EditAction 1444987825927 TestBowlingGame.java 1575 4 15 2
 EditAction 1444987844767 TestBowlingGame.java 1575 4 15 2
 EditAction 1444987902924 TestBowlingGame.java 1602 4 16 2
 EditAction 1444987914646 TestBowlingGame.java 1647 4 17 3
+UnitTestCaseAction 1444987938474 TestBowlingGame.java OK
+UnitTestSessionAction 1444987938474 TestBowlingGame OK
+RefactoringAction 1444987963094 TestBowlingGame.java ADD viod testGameScoreSingleStrikeSecondLast() METHOD
+EditAction 1444987965944 TestBowlingGame.java 1720 5 17 3
