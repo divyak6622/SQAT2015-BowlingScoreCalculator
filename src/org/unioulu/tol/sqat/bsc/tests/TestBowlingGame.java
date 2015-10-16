@@ -31,7 +31,6 @@ public class TestBowlingGame {
 		}
 		
 		System.out.println("game.score = " + game.score());
-		assertEquals(game.score(),81);
 		assertEquals(81,game.score());
 	}
 	
