@@ -119,7 +119,7 @@ public class TestBowlingGame {
 
 	@Test
 	public void testMultipleSpares1() {
-		
+		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
 		fail("failing");
 	}
 	
