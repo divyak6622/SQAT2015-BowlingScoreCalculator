@@ -19,3 +19,4 @@ RefactoringAction 1444984643345 TestFrame.java RENAME testFrameScoreFirst=>void 
 RefactoringAction 1444984649860 TestFrame.java RENAME testFrameScoreFirstThrow=>void testFrameScoreFirstThrow0 FIELD
 RefactoringAction 1444984652372 TestFrame.java RENAME testFrameScoreFirstThrow0=>void testFrameScoreFirstThrow0() METHOD
 EditAction 1444984653039 TestFrame.java 367 2 2 1
+EditAction 1444984660584 TestFrame.java 396 2 3 1
