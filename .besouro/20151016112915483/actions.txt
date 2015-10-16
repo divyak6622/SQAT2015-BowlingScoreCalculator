@@ -9,3 +9,5 @@ EditAction 1444984533361 TestFrame.java 189 1 0 0
 RefactoringAction 1444984548433 TestFrame.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
 EditAction 1444984550585 TestFrame.java 259 1 1 0
 EditAction 1444984565160 TestFrame.java 298 1 2 1
+RefactoringAction 1444984598287 TestFrame.java RENAME testFrameScore()=>void testFrameScoreisZero() METHOD
+EditAction 1444984598303 TestFrame.java 304 1 2 1
