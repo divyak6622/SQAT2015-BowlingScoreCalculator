@@ -23,9 +23,13 @@ public class BowlingGame {
 		//to be implemented
 		int score = 0;
 		
-		Frame currentFrame;
+		Frame currentFrame; 
+		int currentScore;
+		
 		for(int i = 0; i < frames.size(); i++) {
 			currentFrame = frames.get(i);
+			
+			
 		}
 		
 		for(Frame frame: frames) {
@@ -33,6 +37,10 @@ public class BowlingGame {
 		}
 		
 		return score;
+	}
+	
+	private int calculateFrameScore(int indx) {
+		Frame currentFrame = frames.get(indx);
 	}
 	
 	public boolean isNextFrameBonus(){

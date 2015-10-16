@@ -114,3 +114,6 @@ UnitTestCaseAction 1444986399052 TestBowlingGame.java FAIL
 UnitTestSessionAction 1444986399054 TestBowlingGame FAIL
 EditAction 1444986438232 BowlingGame.java 737 5 5 0
 EditAction 1444986461321 BowlingGame.java 789 5 6 0
+RefactoringAction 1444986500185 BowlingGame.java ADD void calculateFrameScore() METHOD
+RefactoringAction 1444986511222 BowlingGame.java RENAME calculateFrameScore()=>void calculateFrameScore(int) METHOD
+EditAction 1444986549402 BowlingGame.java 920 6 8 0
