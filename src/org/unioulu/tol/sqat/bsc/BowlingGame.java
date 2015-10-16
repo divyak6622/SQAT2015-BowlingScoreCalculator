@@ -41,13 +41,17 @@ public class BowlingGame {
 		if(isStrike && indx < (frames.size()-1)) {
 			score += calculateFrameScore(indx+1);
 		} else if(isSpare && indx < frames.size()-1) {
+			if(isFollowedBySpare(indx)) {
+				Frame next = frames.get(indx+1);
+				score += next.firstThrow() + next.secondThrow();
+			}
 			score += frames.get(indx+1).firstThrow();
 		}
 		
 		return score;
 	}
 	
-	private boolean followedBySpare(int indx) {
+	private boolean isFollowedBySpare(int indx) {
 		if(indx < 0 || indx >= (frames.size() -1)) {
 			return false;
 		}
