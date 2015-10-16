@@ -94,3 +94,8 @@ UnitTestCaseAction 1444985963421 TestFrame.java OK
 UnitTestSessionAction 1444985963421 TestFrame OK
 RefactoringAction 1444986000557 TestBowlingGame.java RENAME testFrameScore()=>void testFrameScoreNormalF() METHOD
 EditAction 1444986001778 TestBowlingGame.java 647 1 4 1
+RefactoringAction 1444986025113 TestBowlingGame.java ADD void test FIELD
+RefactoringAction 1444986035129 TestBowlingGame.java RENAME testFrameScoreNormalFrames()=>void testGameScoreNormalFrames() METHOD
+RefactoringAction 1444986037646 TestBowlingGame.java RENAME test=>void testG FIELD
+RefactoringAction 1444986046660 TestBowlingGame.java RENAME testG=>void testGameScoreSingleStrike() METHOD
+EditAction 1444986047402 TestBowlingGame.java 709 2 4 1

@@ -15,7 +15,7 @@ public class TestBowlingGame {
 	};
 	
 	@Test
-	public void testFrameScoreNormalFrames() {
+	public void testGameScoreNormalFrames() {
 		BowlingGame game = null;
 		game = new BowlingGame();
 		
@@ -24,5 +24,10 @@ public class TestBowlingGame {
 		}
 		
 		assertEquals(game.score(),81);
+	}
+	
+	@Test
+	public void testGameScoreSingleStrike() {
+		
 	}
 }
