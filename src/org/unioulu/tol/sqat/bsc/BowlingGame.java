@@ -45,7 +45,9 @@ public class BowlingGame {
 		
 		boolean isStrike = currentFrame.isStrike();
 		
-		if(isStrike) {
+		if(!isStrike) {
+			score = currentFrame.score();
+		} else {
 			score = 10;
 			
 			if(indx < (frames.size() -1 )) {
