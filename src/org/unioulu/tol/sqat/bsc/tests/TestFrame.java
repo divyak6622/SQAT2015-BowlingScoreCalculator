@@ -43,4 +43,9 @@ public class TestFrame {
 		assertEquals(frame.score(),4);
 	}
 	
+	@Test
+	public void testStrike() {
+		
+	}
+	
 }

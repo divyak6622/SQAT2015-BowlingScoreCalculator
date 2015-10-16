@@ -72,3 +72,9 @@ UnitTestCaseAction 1444985631372 TestBowlingGame.java FAIL
 UnitTestCaseAction 1444985631372 TestFrame.java OK
 UnitTestSessionAction 1444985631373 org.unioulu.tol.sqat.bsc.tests FAIL
 EditAction 1444985792201 Frame.java 839 6 8 0
+RefactoringAction 1444985801812 TestFrame.java ADD void test FIELD
+RefactoringAction 1444985802831 TestFrame.java RENAME test=>void testS FIELD
+RefactoringAction 1444985808851 TestFrame.java RENAME testS=>void testStrike() METHOD
+RefactoringAction 1444985812370 TestFrame.java RENAME testStrike()=>void test FIELD
+RefactoringAction 1444985814889 TestFrame.java RENAME test=>void testStrike() METHOD
+EditAction 1444985817668 TestFrame.java 1000 5 18 8
