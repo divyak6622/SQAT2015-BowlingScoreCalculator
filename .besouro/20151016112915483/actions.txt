@@ -245,3 +245,4 @@ RefactoringAction 1444988827722 TestBowlingGame.java RENAME testGameScoreSingleS
 RefactoringAction 1444988828744 TestBowlingGame.java RENAME testGameScoreSingleSpareS=>void testGameScoreSingleSpareSe FIELD
 RefactoringAction 1444988832264 TestBowlingGame.java RENAME testGameScoreSingleSpareSe=>void testGameScoreSingleSpare() METHOD
 EditAction 1444988833934 TestBowlingGame.java 1934 6 21 4
+EditAction 1444988842502 TestBowlingGame.java 2008 6 22 4

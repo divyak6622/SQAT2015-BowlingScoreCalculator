@@ -72,6 +72,6 @@ public class TestBowlingGame {
 	
 	@Test
 	public void testGameScoreSingleSpare() {
-		
+		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
 	}
 }
