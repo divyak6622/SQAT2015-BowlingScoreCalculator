@@ -73,6 +73,8 @@ public class TestFrame {
 		assertFalse(strike.isSpare());
 		
 		//sum is not 10
+		Frame notSpare = new Frame(3,4);
+		assertFalse(notSpare.isSpare());
 	}
 	
 	@Test
