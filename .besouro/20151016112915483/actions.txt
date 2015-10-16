@@ -99,3 +99,9 @@ RefactoringAction 1444986035129 TestBowlingGame.java RENAME testFrameScoreNormal
 RefactoringAction 1444986037646 TestBowlingGame.java RENAME test=>void testG FIELD
 RefactoringAction 1444986046660 TestBowlingGame.java RENAME testG=>void testGameScoreSingleStrike() METHOD
 EditAction 1444986047402 TestBowlingGame.java 709 2 4 1
+RefactoringAction 1444986167762 TestBowlingGame.java ADD Frame FIELD
+RefactoringAction 1444986207458 TestBowlingGame.java RENAME testGameScoreSingleStrike()=>void testGameScoreSingleStrikeF() METHOD
+RefactoringAction 1444986209975 TestBowlingGame.java RENAME testGameScoreSingleStrikeF()=>void testGameScoreSingleStrikeFirst() METHOD
+RefactoringAction 1444986230105 TestBowlingGame.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1444986238176 TestBowlingGame.java ADD import java.util.ArrayList IMPORT
+EditAction 1444986249759 TestBowlingGame.java 917 2 5 1
