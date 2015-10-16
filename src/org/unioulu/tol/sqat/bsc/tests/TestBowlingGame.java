@@ -18,6 +18,10 @@ public class TestBowlingGame {
 	public void testFrameScore() {
 		BowlingGame game = null;
 		game = new BowlingGame();
+		
+		for(Frame frame: frames) {
+			game.addFrame(frame);
+		}
 	}
 	
 	@Test
