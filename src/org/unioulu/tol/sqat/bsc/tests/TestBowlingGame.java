@@ -31,7 +31,6 @@ public class TestBowlingGame {
 			game.addFrame(frame);
 		}
 		
-		System.out.println("game.score = " + game.score());
 		assertEquals(81,game.score());
 	}
 	
@@ -58,7 +57,6 @@ public class TestBowlingGame {
 		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
 		gameFrames.set(9, new Frame(10,0));
 		BowlingGame game = this.createGame(gameFrames);
-		//what is the score then?
 		int expectedScore = 83;
 		assertEquals(expectedScore,game.score());
 	}
@@ -66,7 +64,7 @@ public class TestBowlingGame {
 	@Test
 	public void testGameScoreSingleStrikeSecondLast() {
 		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
-		gameFrames.set(9, new Frame(10,0));
+		gameFrames.set(8, new Frame(10,0));
 		BowlingGame game = this.createGame(gameFrames);
 		
 	}
