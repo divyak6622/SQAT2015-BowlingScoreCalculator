@@ -41,10 +41,21 @@ public class BowlingGame {
 		if(isStrike && indx < (frames.size()-1)) {
 			Frame nextFrame = frames.get(indx+1);
 			
-			
-			
-			score += nextFrame.firstThrow() + nextFrame.secondThrow();
-			
+			if(nextFrame.isStrike()) {
+				//score += calculateFrameScore(indx+1);
+				score += nextFrame.score();
+				//strike's second score is always 0 so try to get the 
+				//(a throw doesn't happen since all of the bowls are collapsed)
+				//second score then from the frame following it
+				int secondNextFrameIndx = indx+2;
+				
+				if(secondNextFrameIndx < frames.size()) {
+					score += frames.get(secondNextFrameIndx).firstThrow();
+				}
+				
+			} else {
+				score += nextFrame.firstThrow() + nextFrame.secondThrow();
+			}
 			/*if(isFollowedBySpare(indx)) {
 				score += frames.get(indx+1).score();
 				

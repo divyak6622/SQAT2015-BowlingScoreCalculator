@@ -116,6 +116,10 @@ public class TestBowlingGame {
 		int expectedScore = 103;
 		assertEquals(expectedScore,game.score());
 	}
-	
+
+	@Test
+	public void testMultipleSpares1() {
+		
+	}
 	
 }
