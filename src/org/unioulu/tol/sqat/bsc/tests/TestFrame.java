@@ -14,4 +14,9 @@ public class TestFrame {
 		assertEquals(frame1.score(),0);
 	}
 	
+	@Test
+	public void testFrameScoreFirstThrow0() {
+		
+	}
+	
 }
