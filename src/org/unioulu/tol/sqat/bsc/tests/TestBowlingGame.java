@@ -8,4 +8,8 @@ import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingGame {
 
+	@Test
+	public void fail() {
+		fail("fail");
+	}
 }

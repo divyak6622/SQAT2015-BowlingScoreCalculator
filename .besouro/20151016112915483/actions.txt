@@ -51,3 +51,5 @@ UnitTestSessionAction 1444984914032 TestFrame OK
 RefactoringAction 1444985011211 TestBowlingGame.java ADD TestBowlingGame.java CLASS
 FileOpenedAction 1444985011326 TestBowlingGame.java 80 0 0 0
 EditAction 1444985019637 TestBowlingGame.java 185 0 0 0
+RefactoringAction 1444985077844 TestBowlingGame.java ADD void fail() METHOD
+EditAction 1444985090970 TestBowlingGame.java 237 1 1 0
