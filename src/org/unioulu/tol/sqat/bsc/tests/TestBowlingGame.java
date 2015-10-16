@@ -98,6 +98,11 @@ public class TestBowlingGame {
 	}
 	
 	@Test
+	public void testMultipleStrikes1()  {
+		
+	}
+	
+	@Test
 	public void testStrikeFollowedBySpare1() {
 		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
 		gameFrames.set(0, new Frame(10,0));
@@ -106,4 +111,6 @@ public class TestBowlingGame {
 		int expectedScore = 103;
 		assertEquals(expectedScore,game.score());
 	}
+	
+	
 }

@@ -301,3 +301,9 @@ RefactoringAction 1444990079561 BowlingGame.java REMOVE scoreByIndex(int) METHOD
 RefactoringAction 1444990079562 BowlingGame.java REMOVE isNextFrameBonus() METHOD
 RefactoringAction 1444990082580 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
 EditAction 1444990083413 BowlingGame.java 1577 7 13 0
+UnitTestCaseAction 1444990110411 TestBowlingGame.java OK
+UnitTestSessionAction 1444990110412 TestBowlingGame OK
+UnitTestCaseAction 1444990115452 TestFrame.java OK
+UnitTestSessionAction 1444990115453 TestFrame OK
+RefactoringAction 1444990184345 TestBowlingGame.java ADD void testMultipleStrikes1() METHOD
+EditAction 1444990184911 TestBowlingGame.java 3186 10 42 8
