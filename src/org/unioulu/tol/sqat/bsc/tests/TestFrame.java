@@ -45,7 +45,7 @@ public class TestFrame {
 	
 	@Test
 	public void testStrike() {
-		
+		Frame strike = new Frame(10,0);
 	}
 	
 }

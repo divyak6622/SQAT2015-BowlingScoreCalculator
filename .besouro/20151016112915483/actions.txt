@@ -78,3 +78,4 @@ RefactoringAction 1444985808851 TestFrame.java RENAME testS=>void testStrike() M
 RefactoringAction 1444985812370 TestFrame.java RENAME testStrike()=>void test FIELD
 RefactoringAction 1444985814889 TestFrame.java RENAME test=>void testStrike() METHOD
 EditAction 1444985817668 TestFrame.java 1000 5 18 8
+EditAction 1444985840655 TestFrame.java 1031 5 19 8
