@@ -53,3 +53,7 @@ FileOpenedAction 1444985011326 TestBowlingGame.java 80 0 0 0
 EditAction 1444985019637 TestBowlingGame.java 185 0 0 0
 RefactoringAction 1444985077844 TestBowlingGame.java ADD void fail() METHOD
 EditAction 1444985090970 TestBowlingGame.java 237 1 1 0
+CompilationAction 1444985091093 TestBowlingGame.java
+RefactoringAction 1444985116925 TestBowlingGame.java RENAME fail()=>void t() METHOD
+RefactoringAction 1444985143208 TestBowlingGame.java ADD Frame FIELD
+EditAction 1444985265298 TestBowlingGame.java 448 1 1 0
