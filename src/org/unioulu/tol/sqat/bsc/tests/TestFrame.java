@@ -59,6 +59,7 @@ public class TestFrame {
 	public void testSpare() {
 		Frame spare1 = new Frame(9,1);
 		assertTrue(spare1.isSpare());
+		Frame spare2 = new Frame(1,9);
 	}
 	
 	@Test
