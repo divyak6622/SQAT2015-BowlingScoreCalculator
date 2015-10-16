@@ -231,3 +231,4 @@ RefactoringAction 1444988609154 Frame.java RENAME getSecond=>int getSecondTh FIE
 RefactoringAction 1444988611669 Frame.java RENAME getSecondTh=>int getSecondThrow() METHOD
 RefactoringAction 1444988619198 Frame.java RENAME getSecondThrow()=>int secondThrow() METHOD
 EditAction 1444988620951 Frame.java 1087 8 11 0
+EditAction 1444988676512 BowlingGame.java 1052 6 11 0
