@@ -37,5 +37,7 @@ public class TestBowlingGame {
 	public void testGameScoreSingleStrikeFirst() {
 		ArrayList<Frame> gameFrames = (ArrayList<Frame>) Arrays.asList(frames);
 		gameFrames.set(0, new Frame(10,0));
+		
+	
 	}
 }
