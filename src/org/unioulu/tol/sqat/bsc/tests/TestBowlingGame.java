@@ -40,6 +40,7 @@ public class TestBowlingGame {
 		gameFrames.set(0, new Frame(10,0));
 		
 		BowlingGame game = new BowlingGame();
+		
 		for(Frame frame: gameFrames) {
 			game.addFrame(frame);
 		}
