@@ -266,3 +266,9 @@ UnitTestSessionAction 1444989152100 TestBowlingGame OK
 EditAction 1444989179359 TestBowlingGame.java 2547 8 31 6
 EditAction 1444989188014 TestBowlingGame.java 2659 8 33 6
 EditAction 1444989253750 TestBowlingGame.java 2690 8 34 6
+UnitTestCaseAction 1444989331274 TestBowlingGame.java OK
+UnitTestSessionAction 1444989331275 TestBowlingGame OK
+RefactoringAction 1444989375919 TestBowlingGame.java ADD void test FIELD
+RefactoringAction 1444989379943 TestBowlingGame.java RENAME test=>void testStrikeF FIELD
+RefactoringAction 1444989386467 TestBowlingGame.java RENAME testStrikeF=>void testStrikeFollowedBySpare1() METHOD
+EditAction 1444989408597 TestBowlingGame.java 2924 9 37 7

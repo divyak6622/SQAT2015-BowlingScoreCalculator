@@ -92,7 +92,14 @@ public class TestBowlingGame {
 	public void testGameScoreSingleSpareSecondLast() {
 		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
 		gameFrames.set(8, new Frame(9,1));
-		
+		BowlingGame game = this.createGame(gameFrames);
 		int expectedScore = 84;
+		assertEquals(expectedScore,game.score());
+	}
+	
+	@Test
+	public void testStrikeFollowedBySpare1() {
+		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
+		
 	}
 }
