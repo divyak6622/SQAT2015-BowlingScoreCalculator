@@ -192,3 +192,4 @@ UnitTestCaseAction 1444987938474 TestBowlingGame.java OK
 UnitTestSessionAction 1444987938474 TestBowlingGame OK
 RefactoringAction 1444987963094 TestBowlingGame.java ADD viod testGameScoreSingleStrikeSecondLast() METHOD
 EditAction 1444987965944 TestBowlingGame.java 1720 5 17 3
+EditAction 1444988002583 TestBowlingGame.java 1888 5 20 3

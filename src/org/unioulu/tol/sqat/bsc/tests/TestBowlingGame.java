@@ -65,6 +65,9 @@ public class TestBowlingGame {
 	
 	@Test
 	public void testGameScoreSingleStrikeSecondLast() {
+		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
+		gameFrames.set(9, new Frame(10,0));
+		BowlingGame game = this.createGame(gameFrames);
 		
 	}
 }
