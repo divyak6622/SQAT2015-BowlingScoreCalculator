@@ -41,3 +41,6 @@ RefactoringAction 1444984832873 TestFrame.java RENAME testFrameScore=>void testF
 EditAction 1444984833693 TestFrame.java 755 4 11 5
 EditAction 1444984850872 TestFrame.java 794 4 13 5
 EditAction 1444984857799 TestFrame.java 828 4 14 6
+UnitTestCaseAction 1444984862728 TestFrame.java OK
+UnitTestSessionAction 1444984862728 TestFrame OK
+EditAction 1444984879115 TestFrame.java 822 4 14 6

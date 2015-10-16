@@ -9,9 +9,8 @@ public class TestFrame {
 
 	@Test
 	public void testFrameScoreisZero() {
-		Frame frame1 = new Frame(0,0);
-		
-		assertEquals(frame1.score(),0);
+		Frame frame = new Frame(0,0);
+		assertEquals(frame.score(),0);
 	}
 	
 	@Test
