@@ -6,3 +6,5 @@ RefactoringAction 1444984521107 TestFrame.java ADD import org.junit.Assert.* IMP
 RefactoringAction 1444984524619 TestFrame.java ADD void test FIELD
 RefactoringAction 1444984532131 TestFrame.java RENAME test=>void testFrameScore() METHOD
 EditAction 1444984533361 TestFrame.java 189 1 0 0
+RefactoringAction 1444984548433 TestFrame.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+EditAction 1444984550585 TestFrame.java 259 1 1 0
