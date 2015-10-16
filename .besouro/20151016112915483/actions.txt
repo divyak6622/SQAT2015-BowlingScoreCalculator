@@ -59,3 +59,5 @@ RefactoringAction 1444985143208 TestBowlingGame.java ADD Frame FIELD
 EditAction 1444985265298 TestBowlingGame.java 448 1 1 0
 RefactoringAction 1444985298661 TestBowlingGame.java ADD void testFrameScore() METHOD
 EditAction 1444985305127 TestBowlingGame.java 500 2 1 0
+RefactoringAction 1444985324555 TestBowlingGame.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+EditAction 1444985332402 TestBowlingGame.java 599 2 3 0
