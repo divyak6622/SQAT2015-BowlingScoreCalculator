@@ -23,15 +23,8 @@ public class BowlingGame {
 		//to be implemented
 		int score = 0;
 		
-		Frame currentFrame; 
-		int currentScore;
-		
 		for(int i = 0; i < frames.size(); i++) {
 			score += calculateFrameScore(i);	
-		}
-		
-		for(Frame frame: frames) {
-			score += frame.score();
 		}
 		
 		return score;
