@@ -86,3 +86,6 @@ EditAction 1444985892361 Frame.java 870 6 8 0
 UnitTestCaseAction 1444985897863 TestFrame.java OK
 UnitTestSessionAction 1444985897864 TestFrame OK
 EditAction 1444985935468 TestFrame.java 1146 5 22 10
+UnitTestCaseAction 1444985939001 TestFrame.java OK
+UnitTestSessionAction 1444985939002 TestFrame OK
+EditAction 1444985951020 TestFrame.java 1189 5 23 10
