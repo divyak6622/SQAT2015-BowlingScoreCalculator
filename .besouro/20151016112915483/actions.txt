@@ -46,3 +46,8 @@ UnitTestSessionAction 1444984862728 TestFrame OK
 EditAction 1444984879115 TestFrame.java 822 4 14 6
 EditAction 1444984892780 TestFrame.java 887 4 16 7
 EditAction 1444984909486 TestFrame.java 952 4 18 8
+UnitTestCaseAction 1444984914031 TestFrame.java OK
+UnitTestSessionAction 1444984914032 TestFrame OK
+RefactoringAction 1444985011211 TestBowlingGame.java ADD TestBowlingGame.java CLASS
+FileOpenedAction 1444985011326 TestBowlingGame.java 80 0 0 0
+EditAction 1444985019637 TestBowlingGame.java 185 0 0 0
