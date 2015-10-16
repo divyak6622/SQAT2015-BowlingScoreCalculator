@@ -58,6 +58,7 @@ public class TestFrame {
 	@Test
 	public void testSpare() {
 		Frame spare1 = new Frame(9,1);
+		assertTrue(spare1.isSpare());
 	}
 	
 	@Test
