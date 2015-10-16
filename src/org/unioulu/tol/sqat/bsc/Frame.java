@@ -21,7 +21,7 @@ public class Frame {
 	public int score(){
 		//to be implemented
 		int score = 0;
-		if(isStrike()) {
+		if(isStrike() || isSpare()) {
 			score = 10;
 		} else {
 			score = firstThrow + secondThrow;
