@@ -85,6 +85,8 @@ public class TestBowlingGame {
 		gameFrames.set(9, new Frame(9,1));
 		BowlingGame game = this.createGame(gameFrames);
 		int expectedScore = 83;
+		//TODO: add new bonus throw
+		
 		assertEquals(expectedScore,game.score());
 	}
 	
