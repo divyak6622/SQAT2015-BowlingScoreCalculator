@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import org.junit.Test;
 import org.unioulu.tol.sqat.bsc.BowlingGame;
@@ -35,7 +36,13 @@ public class TestBowlingGame {
 	}
 	
 	private BowlingGame createGame(List<Frame> gameFrames) {
+		BowlingGame game = new BowlingGame();
 		
+		for(Frame frame: gameFrames) {
+			game.addFrame(frame);
+		}
+		
+		return game;
 	}
 	
 	@Test
@@ -43,6 +50,7 @@ public class TestBowlingGame {
 		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
 		gameFrames.set(0, new Frame(10,0));
 		
+		BowlingGame game = this.createGame(gameFrames);
 		BowlingGame game = new BowlingGame();
 		
 		for(Frame frame: gameFrames) {
