@@ -52,6 +52,7 @@ public class TestFrame {
 		assertFalse(notStrike1.isStrike());
 		
 		Frame notStrike2 = new Frame(0,10);
+		assertFalse(notStrike2.isStrike());
 	}
 	
 }
