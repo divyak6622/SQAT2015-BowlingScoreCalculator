@@ -87,4 +87,9 @@ public class TestBowlingGame {
 		int expectedScore = 83;
 		assertEquals(expectedScore,game.score());
 	}
+	
+	@Test
+	public void testGameScoreSingleSpareSecondLast() {
+		
+	}
 }
