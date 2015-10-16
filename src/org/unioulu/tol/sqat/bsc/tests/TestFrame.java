@@ -55,4 +55,10 @@ public class TestFrame {
 		assertFalse(notStrike2.isStrike());
 	}
 	
+	@Test
+	public void testStrikeScore() {
+		Frame strike = new Frame(10,0);
+		assertEquals(strike.score(),10);
+	}
+	
 }
