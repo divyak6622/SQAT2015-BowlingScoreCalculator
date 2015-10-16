@@ -41,6 +41,8 @@ public class BowlingGame {
 		if(isStrike && indx < (frames.size()-1)) {
 			Frame nextFrame = frames.get(indx+1);
 			
+			
+			
 			score += nextFrame.firstThrow() + nextFrame.secondThrow();
 			
 			/*if(isFollowedBySpare(indx)) {

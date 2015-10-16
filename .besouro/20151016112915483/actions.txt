@@ -316,3 +316,10 @@ UnitTestSessionAction 1444990292489 TestBowlingGame FAIL
 RefactoringAction 1444990514728 BowlingGame.java REMOVE isFollowedBySpare(int) METHOD
 RefactoringAction 1444990516747 BowlingGame.java ADD boolean isFollowedBySpare(int) METHOD
 EditAction 1444990517794 BowlingGame.java 1702 7 13 0
+UnitTestCaseAction 1444990524423 TestBowlingGame.java FAIL
+UnitTestSessionAction 1444990524423 TestBowlingGame FAIL
+UnitTestCaseAction 1444990543134 TestFrame.java OK
+UnitTestSessionAction 1444990543135 TestFrame OK
+UnitTestCaseAction 1444990549776 TestBowlingGame.java FAIL
+UnitTestSessionAction 1444990549777 TestBowlingGame FAIL
+EditAction 1444990800167 BowlingGame.java 1712 7 13 0
