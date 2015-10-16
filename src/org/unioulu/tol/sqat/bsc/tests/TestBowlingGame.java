@@ -83,5 +83,7 @@ public class TestBowlingGame {
 	public void testGameScoreSingleSpareLast() {
 		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
 		gameFrames.set(9, new Frame(9,1));
+		BowlingGame game = this.createGame(gameFrames);
+		int expectedScore = 83;
 	}
 }
