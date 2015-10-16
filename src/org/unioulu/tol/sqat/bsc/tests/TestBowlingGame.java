@@ -14,6 +14,11 @@ public class TestBowlingGame {
 	};
 	
 	@Test
+	public void testFrameScore() {
+		
+	}
+	
+	@Test
 	public void t() {
 		fail("Not yet implemented");
 	}
