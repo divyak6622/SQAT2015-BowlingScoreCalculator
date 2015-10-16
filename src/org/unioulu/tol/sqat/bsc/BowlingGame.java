@@ -41,7 +41,7 @@ public class BowlingGame {
 		if(isStrike && indx < (frames.size()-1)) {
 			score += calculateFrameScore(indx+1);
 		} else if(isSpare && indx < frames.size()-1) {
-			
+			score += frames.get(indx+1).firstThrow();
 		}
 		
 		return score;
