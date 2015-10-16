@@ -60,5 +60,6 @@ public class TestBowlingGame {
 		BowlingGame game = this.createGame(gameFrames);
 		//what is the score then?
 		int expectedScore = 83;
+		assertEquals(expectedScore,game.score());
 	}
 }
