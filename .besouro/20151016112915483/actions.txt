@@ -172,3 +172,7 @@ RefactoringAction 1444987546841 TestBowlingGame.java ADD void testGameScoreSingl
 EditAction 1444987564190 TestBowlingGame.java 1228 3 10 2
 EditAction 1444987573496 TestBowlingGame.java 1228 3 10 2
 EditAction 1444987626515 TestBowlingGame.java 1234 3 10 2
+RefactoringAction 1444987646100 TestBowlingGame.java ADD BowlingGame createGame() METHOD
+RefactoringAction 1444987649119 TestBowlingGame.java RENAME createGame()=>BowlingGame createGame(List<Frame>) METHOD
+RefactoringAction 1444987653639 TestBowlingGame.java RENAME createGame(List<Frame>)=>BowlingGame createGame() METHOD
+EditAction 1444987663610 TestBowlingGame.java 1298 4 10 2

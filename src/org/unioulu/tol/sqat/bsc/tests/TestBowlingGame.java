@@ -34,7 +34,9 @@ public class TestBowlingGame {
 		assertEquals(81,game.score());
 	}
 	
-	
+	private BowlingGame createGame(List<Frame> gameFrames) {
+		
+	}
 	
 	@Test
 	public void testGameScoreSingleStrikeFirst() {
