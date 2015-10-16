@@ -34,3 +34,8 @@ RefactoringAction 1444984779243 TestFrame.java RENAME testFrameS=>void testFrame
 EditAction 1444984779533 TestFrame.java 555 3 6 3
 EditAction 1444984798204 TestFrame.java 628 3 9 4
 EditAction 1444984810335 TestFrame.java 689 3 11 5
+UnitTestCaseAction 1444984814306 TestFrame.java OK
+UnitTestSessionAction 1444984814306 TestFrame OK
+RefactoringAction 1444984825860 TestFrame.java ADD void testFrameScore FIELD
+RefactoringAction 1444984832873 TestFrame.java RENAME testFrameScore=>void testFrameScoreBothThrowsNot0() METHOD
+EditAction 1444984833693 TestFrame.java 755 4 11 5

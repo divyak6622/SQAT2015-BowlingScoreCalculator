@@ -31,4 +31,9 @@ public class TestFrame {
 		assertEquals(frame.score(),1);
 	}
 	
+	@Test
+	public void testFrameScoreBothThrowsNot0() {
+		
+	}
+	
 }
