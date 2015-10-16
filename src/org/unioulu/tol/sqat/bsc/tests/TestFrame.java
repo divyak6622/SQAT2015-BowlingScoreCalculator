@@ -56,6 +56,11 @@ public class TestFrame {
 	}
 	
 	@Test
+	public void testSpare() {
+		
+	}
+	
+	@Test
 	public void testStrikeScore() {
 		Frame strike = new Frame(10,0);
 		assertEquals(strike.score(),10);
