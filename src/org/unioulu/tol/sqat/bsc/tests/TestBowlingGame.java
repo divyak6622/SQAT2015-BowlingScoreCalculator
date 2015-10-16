@@ -56,7 +56,7 @@ public class TestBowlingGame {
 	@Test
 	public void testGameScoreSingleStrikeLast() {
 		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
-		gameFrames.set(8, new Frame(10,0));
+		gameFrames.set(9, new Frame(10,0));
 		BowlingGame game = this.createGame(gameFrames);
 		//what is the score then?
 	}
