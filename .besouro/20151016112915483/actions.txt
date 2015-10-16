@@ -286,3 +286,5 @@ RefactoringAction 1444989562479 BowlingGame.java RENAME scoreByIndex()=>int scor
 RefactoringAction 1444989567512 BowlingGame.java REMOVE isFollowedBySpare(int) METHOD
 RefactoringAction 1444989634287 BowlingGame.java ADD boolean followedBySpare(int) METHOD
 EditAction 1444989644511 BowlingGame.java 1361 8 13 0
+CompilationAction 1444989644791 BowlingGame.java
+EditAction 1444989673281 BowlingGame.java 1448 8 15 0

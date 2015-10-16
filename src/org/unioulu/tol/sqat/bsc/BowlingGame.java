@@ -48,7 +48,11 @@ public class BowlingGame {
 	}
 	
 	private boolean followedBySpare(int indx) {
+		if(indx < 0 || indx >= (frames.size() -1)) {
+			return false;
+		}
 		
+		return true;
 	}
 	
 	public int scoreByIndex(int index) {
