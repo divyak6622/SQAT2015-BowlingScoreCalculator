@@ -24,6 +24,5 @@ public class TestBowlingGame {
 		}
 		
 		assertEquals(game.score(),81);
-		fail("Not yet implemented");
 	}
 }
