@@ -24,7 +24,9 @@ public class TestFrame {
 	
 	@Test
 	public void testFrameScoreSecondThrow0() {
-		
+		Frame frame;
+		frame = new Frame(2,0);
+		assertEquals(frame.score(),2);
 	}
 	
 }
