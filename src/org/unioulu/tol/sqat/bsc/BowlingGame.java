@@ -59,13 +59,14 @@ public class BowlingGame {
 		return frames.get(indx+1).isSpare();
 	}
 	
+	/*
 	public int scoreByIndex(int index) {
 		if(index < 0 || index >= frames.size()) {
 			return -1;
 		}
 		
 		return calculateFrameScore(index);
-	}
+	}*/
 	
 	
 	public boolean isNextFrameBonus(){
