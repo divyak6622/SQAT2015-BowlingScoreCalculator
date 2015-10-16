@@ -49,19 +49,13 @@ public class TestBowlingGame {
 	public void testGameScoreSingleStrikeFirst() {
 		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
 		gameFrames.set(0, new Frame(10,0));
-		
 		BowlingGame game = this.createGame(gameFrames);
-		BowlingGame game = new BowlingGame();
-		
-		for(Frame frame: gameFrames) {
-			game.addFrame(frame);
-		}
-	
 		assertEquals(94,game.score());
 	}
 	
 	@Test
 	public void testGameScoreSingleStrikeLast() {
+		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
 		
 	}
 }
