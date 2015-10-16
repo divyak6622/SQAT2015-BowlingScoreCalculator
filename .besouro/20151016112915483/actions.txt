@@ -214,3 +214,6 @@ UnitTestSessionAction 1444988332567 TestFrame OK
 EditAction 1444988340786 TestFrame.java 1533 7 30 14
 EditAction 1444988359085 TestFrame.java 1603 7 31 14
 EditAction 1444988365628 TestFrame.java 1637 7 32 15
+UnitTestCaseAction 1444988370067 TestFrame.java OK
+UnitTestSessionAction 1444988370068 TestFrame OK
+EditAction 1444988380402 TestFrame.java 1660 7 32 15
