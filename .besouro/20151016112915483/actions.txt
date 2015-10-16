@@ -250,3 +250,6 @@ RefactoringAction 1444988888389 TestBowlingGame.java RENAME testGameScoreSingleS
 EditAction 1444988907784 TestBowlingGame.java 2051 6 23 4
 EditAction 1444988918383 TestBowlingGame.java 2102 6 24 4
 EditAction 1444988935408 TestBowlingGame.java 2174 6 26 5
+UnitTestCaseAction 1444988948493 TestBowlingGame.java FAIL
+UnitTestSessionAction 1444988948494 TestBowlingGame FAIL
+EditAction 1444988995613 BowlingGame.java 1107 6 11 0
