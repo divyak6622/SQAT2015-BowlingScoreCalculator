@@ -57,7 +57,7 @@ public class TestFrame {
 	
 	@Test
 	public void testSpare() {
-		
+		Frame spare1 = new Frame(9,1);
 	}
 	
 	@Test
