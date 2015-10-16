@@ -166,3 +166,7 @@ UnitTestCaseAction 1444987462917 TestBowlingGame.java OK
 UnitTestSessionAction 1444987462918 TestBowlingGame OK
 EditAction 1444987489400 TestBowlingGame.java 1157 2 10 2
 EditAction 1444987493007 TestBowlingGame.java 1161 2 10 2
+UnitTestCaseAction 1444987514698 TestBowlingGame.java OK
+UnitTestSessionAction 1444987514698 TestBowlingGame OK
+RefactoringAction 1444987546841 TestBowlingGame.java ADD void testGameScoreSingleStrikeLast() METHOD
+EditAction 1444987564190 TestBowlingGame.java 1228 3 10 2

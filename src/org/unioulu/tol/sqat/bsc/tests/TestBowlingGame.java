@@ -47,4 +47,9 @@ public class TestBowlingGame {
 	
 		assertEquals(94,game.score());
 	}
+	
+	@Test
+	public void testGameScoreSingleStrikeLast() {
+		
+	}
 }
