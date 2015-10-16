@@ -100,6 +100,7 @@ public class TestBowlingGame {
 	@Test
 	public void testStrikeFollowedBySpare1() {
 		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
-		
+		gameFrames.set(0, new Frame(10,0));
+		gameFrames.set(1, new Frame(4,6));
 	}
 }
