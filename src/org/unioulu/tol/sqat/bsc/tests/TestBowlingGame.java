@@ -90,6 +90,7 @@ public class TestBowlingGame {
 	
 	@Test
 	public void testGameScoreSingleSpareSecondLast() {
-		
+		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
+		gameFrames.set(8, new Frame(9,1));
 	}
 }
