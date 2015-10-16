@@ -34,6 +34,7 @@ public class BowlingGame {
 		
 		int score = currentFrame.score();
 		
+		System.out.println("score = " + score);
 		/*boolean isStrike = currentFrame.isStrike();
 		
 		if(isStrike && indx < (frames.size()-1)) {
