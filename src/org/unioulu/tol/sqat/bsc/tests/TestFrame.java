@@ -33,7 +33,8 @@ public class TestFrame {
 	
 	@Test
 	public void testFrameScoreBothThrowsNot0() {
-		
+		Frame frame;
+		frame = new Frame(1,2);
 	}
 	
 }
