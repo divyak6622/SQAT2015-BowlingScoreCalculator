@@ -62,6 +62,7 @@ public class TestFrame {
 		Frame spare2 = new Frame(1,9);
 		assertTrue(spare2.isSpare());
 		Frame spare3 = new Frame(0,10);
+		assertTrue(spare3.isSpare());
 		
 		//don't mix up strikes with spares!
 		Frame strike = new Frame(10,0);
