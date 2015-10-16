@@ -52,9 +52,7 @@ public class BowlingGame {
 			return false;
 		}
 		
-		
-		
-		return true;
+		return frames.get(indx+1).isSpare();
 	}
 	
 	public int scoreByIndex(int index) {
