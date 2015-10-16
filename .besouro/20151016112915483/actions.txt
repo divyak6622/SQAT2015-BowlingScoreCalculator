@@ -273,3 +273,4 @@ RefactoringAction 1444989379943 TestBowlingGame.java RENAME test=>void testStrik
 RefactoringAction 1444989386467 TestBowlingGame.java RENAME testStrikeF=>void testStrikeFollowedBySpare1() METHOD
 EditAction 1444989408597 TestBowlingGame.java 2924 9 37 7
 EditAction 1444989455617 TestBowlingGame.java 2997 9 39 7
+EditAction 1444989487056 TestBowlingGame.java 3121 9 42 8
