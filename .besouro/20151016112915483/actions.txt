@@ -105,3 +105,4 @@ RefactoringAction 1444986209975 TestBowlingGame.java RENAME testGameScoreSingleS
 RefactoringAction 1444986230105 TestBowlingGame.java ADD import java.util.Arrays IMPORT
 RefactoringAction 1444986238176 TestBowlingGame.java ADD import java.util.ArrayList IMPORT
 EditAction 1444986249759 TestBowlingGame.java 917 2 5 1
+EditAction 1444986266872 TestBowlingGame.java 952 2 6 1
