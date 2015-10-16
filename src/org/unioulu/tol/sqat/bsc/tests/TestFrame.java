@@ -16,7 +16,8 @@ public class TestFrame {
 	
 	@Test
 	public void testFrameScoreFirstThrow0() {
-		Frame frame = new Frame(0,0);
+		Frame frame = new Frame(0,2);
+		assertEquals(frame.score(),2);
 	}
 	
 }
