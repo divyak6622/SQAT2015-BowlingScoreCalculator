@@ -23,7 +23,7 @@ public class TestBowlingGame {
 			game.addFrame(frame);
 		}
 		
-		
+		assertEquals(game.score(),81);
 		fail("Not yet implemented");
 	}
 }

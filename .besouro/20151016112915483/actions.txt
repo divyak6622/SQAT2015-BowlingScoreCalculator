@@ -65,3 +65,4 @@ EditAction 1444985533481 TestBowlingGame.java 664 2 4 0
 RefactoringAction 1444985542637 TestBowlingGame.java REMOVE t() METHOD
 EditAction 1444985542672 TestBowlingGame.java 633 1 4 0
 EditAction 1444985577624 TestBowlingGame.java 637 1 4 0
+EditAction 1444985610301 TestBowlingGame.java 667 1 5 1
