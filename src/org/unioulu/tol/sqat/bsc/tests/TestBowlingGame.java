@@ -59,5 +59,6 @@ public class TestBowlingGame {
 		gameFrames.set(9, new Frame(10,0));
 		BowlingGame game = this.createGame(gameFrames);
 		//what is the score then?
+		int expectedScore = 83;
 	}
 }
