@@ -35,6 +35,9 @@ public class TestFrame {
 		Frame frame;
 		frame = new Frame(1,2);
 		assertEquals(frame.score(),3);
+		
+		frame = new Frame(2,1);
+		assertEquals(frame.score(),3);
 	}
 	
 }
