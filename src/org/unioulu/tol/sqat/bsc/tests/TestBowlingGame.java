@@ -22,10 +22,7 @@ public class TestBowlingGame {
 		for(Frame frame: frames) {
 			game.addFrame(frame);
 		}
-	}
-	
-	@Test
-	public void t() {
+		
 		fail("Not yet implemented");
 	}
 }
