@@ -30,10 +30,9 @@ public class BowlingGame {
 	}
 	
 	private int calculateFrameScore(int indx) {
-		int score = 0;
 		Frame currentFrame = frames.get(indx);
 		
-		score = currentFrame.score();
+		int score = currentFrame.score();
 		
 		/*boolean isStrike = currentFrame.isStrike();
 		
