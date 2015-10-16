@@ -30,6 +30,7 @@ public class TestBowlingGame {
 			game.addFrame(frame);
 		}
 		
+		System.out.println("game.score = " + game.score());
 		assertEquals(game.score(),81);
 	}
 	
