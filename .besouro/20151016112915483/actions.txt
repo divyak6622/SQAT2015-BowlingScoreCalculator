@@ -21,3 +21,4 @@ RefactoringAction 1444984652372 TestFrame.java RENAME testFrameScoreFirstThrow0=
 EditAction 1444984653039 TestFrame.java 367 2 2 1
 EditAction 1444984660584 TestFrame.java 396 2 3 1
 EditAction 1444984679702 TestFrame.java 430 2 4 2
+EditAction 1444984688183 TestFrame.java 457 2 5 2
