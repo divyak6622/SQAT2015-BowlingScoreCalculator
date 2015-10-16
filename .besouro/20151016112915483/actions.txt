@@ -307,3 +307,4 @@ UnitTestCaseAction 1444990115452 TestFrame.java OK
 UnitTestSessionAction 1444990115453 TestFrame OK
 RefactoringAction 1444990184345 TestBowlingGame.java ADD void testMultipleStrikes1() METHOD
 EditAction 1444990184911 TestBowlingGame.java 3186 10 42 8
+EditAction 1444990234031 TestBowlingGame.java 3337 10 45 8
