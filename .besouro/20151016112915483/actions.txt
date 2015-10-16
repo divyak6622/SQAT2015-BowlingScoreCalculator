@@ -119,3 +119,4 @@ RefactoringAction 1444986511222 BowlingGame.java RENAME calculateFrameScore()=>v
 EditAction 1444986549402 BowlingGame.java 920 6 8 0
 CompilationAction 1444986549687 BowlingGame.java
 EditAction 1444986553856 BowlingGame.java 945 6 9 0
+EditAction 1444986597599 BowlingGame.java 1096 6 12 0

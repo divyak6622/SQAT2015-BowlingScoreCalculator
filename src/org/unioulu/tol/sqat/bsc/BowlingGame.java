@@ -42,7 +42,15 @@ public class BowlingGame {
 	private int calculateFrameScore(int indx) {
 		Frame currentFrame = frames.get(indx);
 		
+		boolean isStrike = currentFrame.isStrike();
 		
+		if(isStrike) {
+			
+		}
+		
+		if(!currentFrame.isStrike()) {
+			return currentFrame.score();
+		}
 		
 		return 0;
 	}
