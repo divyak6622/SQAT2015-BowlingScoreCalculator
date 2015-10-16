@@ -56,11 +56,7 @@ public class BowlingGame {
 			}
 		}
 		
-		if(!currentFrame.isStrike()) {
-			return currentFrame.score();
-		}
-		
-		return 0;
+		return score;
 	}
 	
 	public boolean isNextFrameBonus(){
