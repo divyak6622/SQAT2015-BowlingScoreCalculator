@@ -66,6 +66,7 @@ public class TestBowlingGame {
 		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
 		gameFrames.set(8, new Frame(10,0));
 		BowlingGame game = this.createGame(gameFrames);
-		
+		int expectedScore = 90;
+		assertEquals(expectedScore,game.score());
 	}
 }
