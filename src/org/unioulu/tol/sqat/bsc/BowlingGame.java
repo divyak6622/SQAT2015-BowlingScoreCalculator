@@ -47,6 +47,10 @@ public class BowlingGame {
 		return score;
 	}
 	
+	private boolean isFollowedBySpare(int indx) {
+		
+	}
+	
 	public boolean isNextFrameBonus(){
 		//to be implemented
 		return false;

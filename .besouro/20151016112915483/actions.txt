@@ -274,3 +274,8 @@ RefactoringAction 1444989386467 TestBowlingGame.java RENAME testStrikeF=>void te
 EditAction 1444989408597 TestBowlingGame.java 2924 9 37 7
 EditAction 1444989455617 TestBowlingGame.java 2997 9 39 7
 EditAction 1444989487056 TestBowlingGame.java 3121 9 42 8
+UnitTestCaseAction 1444989493192 TestBowlingGame.java FAIL
+UnitTestSessionAction 1444989493192 TestBowlingGame FAIL
+RefactoringAction 1444989527891 BowlingGame.java ADD boolean isFollowedByS FIELD
+RefactoringAction 1444989538407 BowlingGame.java RENAME isFollowedByS=>boolean isFollowedBySpare(int) METHOD
+EditAction 1444989540465 BowlingGame.java 1207 7 11 0
