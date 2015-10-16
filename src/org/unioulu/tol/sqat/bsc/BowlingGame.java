@@ -41,6 +41,10 @@ public class BowlingGame {
 	
 	private int calculateFrameScore(int indx) {
 		Frame currentFrame = frames.get(indx);
+		
+		
+		
+		return 0;
 	}
 	
 	public boolean isNextFrameBonus(){

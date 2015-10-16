@@ -117,3 +117,5 @@ EditAction 1444986461321 BowlingGame.java 789 5 6 0
 RefactoringAction 1444986500185 BowlingGame.java ADD void calculateFrameScore() METHOD
 RefactoringAction 1444986511222 BowlingGame.java RENAME calculateFrameScore()=>void calculateFrameScore(int) METHOD
 EditAction 1444986549402 BowlingGame.java 920 6 8 0
+CompilationAction 1444986549687 BowlingGame.java
+EditAction 1444986553856 BowlingGame.java 945 6 9 0
