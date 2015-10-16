@@ -15,7 +15,7 @@ public class TestBowlingGame {
 	};
 	
 	@Test
-	public void testFrameScore() {
+	public void testFrameScoreNormalFrames() {
 		BowlingGame game = null;
 		game = new BowlingGame();
 		
