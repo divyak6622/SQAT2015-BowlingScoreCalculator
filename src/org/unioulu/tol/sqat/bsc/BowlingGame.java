@@ -40,7 +40,7 @@ public class BowlingGame {
 		
 		if(isStrike && indx < (frames.size()-1)) {
 			score += calculateFrameScore(indx+1);
-		}
+		} 
 		
 		return score;
 	}
