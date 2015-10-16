@@ -341,3 +341,5 @@ UnitTestSessionAction 1444991642642 TestBowlingGame OK
 EditAction 1444991825962 TestBowlingGame.java 3822 11 54 10
 EditAction 1444991859237 BowlingGame.java 2189 7 13 0
 EditAction 1444991918052 TestFrame.java 1912 7 39 20
+UnitTestCaseAction 1444991922858 TestFrame.java OK
+UnitTestSessionAction 1444991922858 TestFrame OK
