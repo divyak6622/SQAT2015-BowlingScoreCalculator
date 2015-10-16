@@ -279,3 +279,10 @@ UnitTestSessionAction 1444989493192 TestBowlingGame FAIL
 RefactoringAction 1444989527891 BowlingGame.java ADD boolean isFollowedByS FIELD
 RefactoringAction 1444989538407 BowlingGame.java RENAME isFollowedByS=>boolean isFollowedBySpare(int) METHOD
 EditAction 1444989540465 BowlingGame.java 1207 7 11 0
+CompilationAction 1444989540744 BowlingGame.java
+RefactoringAction 1444989555447 BowlingGame.java ADD int scoreByI FIELD
+RefactoringAction 1444989558963 BowlingGame.java RENAME scoreByI=>int scoreByIndex() METHOD
+RefactoringAction 1444989562479 BowlingGame.java RENAME scoreByIndex()=>int scoreByIndex(int) METHOD
+RefactoringAction 1444989567512 BowlingGame.java REMOVE isFollowedBySpare(int) METHOD
+RefactoringAction 1444989634287 BowlingGame.java ADD boolean followedBySpare(int) METHOD
+EditAction 1444989644511 BowlingGame.java 1361 8 13 0

@@ -47,9 +47,18 @@ public class BowlingGame {
 		return score;
 	}
 	
-	private boolean isFollowedBySpare(int indx) {
+	private boolean followedBySpare(int indx) {
 		
 	}
+	
+	public int scoreByIndex(int index) {
+		if(index < 0 || index >= frames.size()) {
+			return -1;
+		}
+		
+		return calculateFrameScore(index);
+	}
+	
 	
 	public boolean isNextFrameBonus(){
 		//to be implemented
