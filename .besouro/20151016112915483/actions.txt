@@ -195,3 +195,8 @@ EditAction 1444987965944 TestBowlingGame.java 1720 5 17 3
 EditAction 1444988002583 TestBowlingGame.java 1888 5 20 3
 EditAction 1444988035414 TestBowlingGame.java 1804 5 19 3
 EditAction 1444988129116 TestBowlingGame.java 1872 5 21 4
+UnitTestCaseAction 1444988132301 TestBowlingGame.java OK
+UnitTestSessionAction 1444988132302 TestBowlingGame OK
+UnitTestCaseAction 1444988143074 TestBowlingGame.java OK
+UnitTestSessionAction 1444988143074 TestBowlingGame OK
+EditAction 1444988185581 Frame.java 967 6 9 0
