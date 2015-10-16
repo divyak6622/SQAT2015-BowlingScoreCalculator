@@ -333,3 +333,4 @@ RefactoringAction 1444991460639 TestBowlingGame.java ADD void testMultipleSpares
 EditAction 1444991460656 TestBowlingGame.java 3514 11 48 9
 EditAction 1444991476907 TestBowlingGame.java 3534 11 49 9
 EditAction 1444991513019 TestBowlingGame.java 3608 11 50 9
+EditAction 1444991558519 TestBowlingGame.java 3688 11 52 9
