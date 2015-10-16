@@ -67,3 +67,8 @@ EditAction 1444985542672 TestBowlingGame.java 633 1 4 0
 EditAction 1444985577624 TestBowlingGame.java 637 1 4 0
 EditAction 1444985610301 TestBowlingGame.java 667 1 5 1
 EditAction 1444985615286 TestBowlingGame.java 635 1 4 1
+UnitTestCaseAction 1444985631372 TestBowlingScoreCalculator.java FAIL
+UnitTestCaseAction 1444985631372 TestBowlingGame.java FAIL
+UnitTestCaseAction 1444985631372 TestFrame.java OK
+UnitTestSessionAction 1444985631373 org.unioulu.tol.sqat.bsc.tests FAIL
+EditAction 1444985792201 Frame.java 839 6 8 0
