@@ -202,3 +202,4 @@ UnitTestSessionAction 1444988143074 TestBowlingGame OK
 EditAction 1444988185581 Frame.java 967 6 9 0
 RefactoringAction 1444988199650 TestFrame.java ADD void testSpare() METHOD
 EditAction 1444988200411 TestFrame.java 1395 7 26 12
+EditAction 1444988267491 Frame.java 997 6 9 0
