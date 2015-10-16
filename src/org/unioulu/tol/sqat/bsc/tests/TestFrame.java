@@ -47,6 +47,9 @@ public class TestFrame {
 	public void testStrike() {
 		Frame strike = new Frame(10,0);
 		assertTrue(strike.isStrike());
+		
+		Frame notStrike1 = new Frame(9,0);
+		assertFalse(notStrike1.isStrike());
 	}
 	
 }
