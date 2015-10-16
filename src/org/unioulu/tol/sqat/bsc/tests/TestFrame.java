@@ -10,6 +10,8 @@ public class TestFrame {
 	@Test
 	public void testFrameScore() {
 		Frame frame1 = new Frame(0,0);
+		
+		assertEquals(frame1.score(),0);
 	}
 	
 }
