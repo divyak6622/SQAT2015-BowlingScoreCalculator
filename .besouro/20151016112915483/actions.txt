@@ -292,3 +292,4 @@ EditAction 1444989678167 BowlingGame.java 1456 8 15 0
 EditAction 1444989698815 BowlingGame.java 1472 8 15 0
 RefactoringAction 1444989836754 BowlingGame.java RENAME followedBySpare(int)=>boolean isFollowedBySpare(int) METHOD
 EditAction 1444989915401 BowlingGame.java 1606 8 15 0
+EditAction 1444989980681 BowlingGame.java 1570 8 15 0

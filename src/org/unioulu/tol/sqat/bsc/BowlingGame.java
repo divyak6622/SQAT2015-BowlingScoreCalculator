@@ -39,12 +39,12 @@ public class BowlingGame {
 		boolean isSpare = currentFrame.isSpare();
 		
 		if(isStrike && indx < (frames.size()-1)) {
-			score += calculateFrameScore(indx+1);
-		} else if(isSpare && indx < frames.size()-1) {
 			if(isFollowedBySpare(indx)) {
-				Frame next = frames.get(indx+1);
-				score += next.firstThrow() + next.secondThrow();
+				score += frames.get(indx+1).score();
+			} else {
+				score += calculateFrameScore(indx+1);
 			}
+		} else if(isSpare && indx < frames.size()-1) {
 			score += frames.get(indx+1).firstThrow();
 		}
 		
