@@ -1,0 +1,8 @@
+FileOpenedAction 1444984155752 TestBowlingScoreCalculator.java 223 1 1 0
+RefactoringAction 1444984484468 TestFrame.java ADD TestFrame.java CLASS
+FileOpenedAction 1444984484589 TestFrame.java 74 0 0 0
+FileOpenedAction 1444984492418 TestCell.java 1361 7 24 8
+RefactoringAction 1444984521107 TestFrame.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1444984524619 TestFrame.java ADD void test FIELD
+RefactoringAction 1444984532131 TestFrame.java RENAME test=>void testFrameScore() METHOD
+EditAction 1444984533361 TestFrame.java 189 1 0 0

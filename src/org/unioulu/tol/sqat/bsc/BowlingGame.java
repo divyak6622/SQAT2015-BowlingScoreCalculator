@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
@@ -20,7 +21,13 @@ public class BowlingGame {
 	
 	public int score(){
 		//to be implemented
-		return 0;
+		int score = 0;
+		
+		for(Frame frame: frames) {
+			score += frame.score();
+		}
+		
+		return score;
 	}
 	
 	public boolean isNextFrameBonus(){
