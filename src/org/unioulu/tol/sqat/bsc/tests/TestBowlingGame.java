@@ -125,7 +125,6 @@ public class TestBowlingGame {
 		BowlingGame game = this.createGame(gameFrames);
 		int expectedScore = 98;
 		assertEquals(expectedScore,game.score());
-		fail("failing");
 	}
 	
 }
