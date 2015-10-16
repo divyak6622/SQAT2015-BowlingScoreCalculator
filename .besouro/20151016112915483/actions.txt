@@ -138,3 +138,8 @@ EditAction 1444987097403 BowlingGame.java 999 6 10 0
 EditAction 1444987150876 Frame.java 942 6 9 0
 RefactoringAction 1444987181779 TestFrame.java ADD void testStrikeScore() METHOD
 EditAction 1444987194378 TestFrame.java 1348 6 26 12
+UnitTestCaseAction 1444987199356 TestFrame.java OK
+UnitTestSessionAction 1444987199356 TestFrame OK
+RefactoringAction 1444987251283 BowlingGame.java REMOVE isNextFrameBonus() METHOD
+RefactoringAction 1444987253305 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
+EditAction 1444987256434 BowlingGame.java 1003 6 8 0
