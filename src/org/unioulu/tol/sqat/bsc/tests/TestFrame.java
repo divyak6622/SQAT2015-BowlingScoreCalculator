@@ -35,6 +35,7 @@ public class TestFrame {
 	public void testFrameScoreBothThrowsNot0() {
 		Frame frame;
 		frame = new Frame(1,2);
+		assertEquals(frame.score(),3);
 	}
 	
 }
