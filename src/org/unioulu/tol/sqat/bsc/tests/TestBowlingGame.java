@@ -74,5 +74,6 @@ public class TestBowlingGame {
 	public void testGameScoreSingleSpareFirst() {
 		ArrayList<Frame> gameFrames = new ArrayList<Frame>(Arrays.asList(frames));
 		gameFrames.set(0, new Frame(1,9));
+		BowlingGame game = this.createGame(gameFrames);
 	}
 }
