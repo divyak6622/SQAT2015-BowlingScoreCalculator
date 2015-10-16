@@ -64,6 +64,7 @@ public class TestFrame {
 		
 		//don't mix up strikes with spares!
 		Frame strike = new Frame(10,0);
+		assertFalse(strike.isSpare());
 	}
 	
 	@Test
