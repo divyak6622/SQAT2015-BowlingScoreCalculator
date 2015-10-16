@@ -331,3 +331,4 @@ UnitTestCaseAction 1444991413387 TestBowlingGame.java OK
 UnitTestSessionAction 1444991413387 TestBowlingGame OK
 RefactoringAction 1444991460639 TestBowlingGame.java ADD void testMultipleSpares1() METHOD
 EditAction 1444991460656 TestBowlingGame.java 3514 11 48 9
+EditAction 1444991476907 TestBowlingGame.java 3534 11 49 9
